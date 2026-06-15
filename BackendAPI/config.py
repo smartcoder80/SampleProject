@@ -1,7 +1,7 @@
 import os
 from psycopg2 import pool
 
-# Supabase PostgreSQL connection — override any value via environment variables
+# Supabase PostgreSQL connection  — override any value via environment variables
 DB_CONFIG = {
     "host":     os.environ.get("DB_HOST",     "db.pwxppfatzndrcvlckcvm.supabase.co"),
     "port":     int(os.environ.get("DB_PORT", 5432)),
